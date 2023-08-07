@@ -24,7 +24,7 @@ const SummaryByTest = () => {
             {renderedResults}
           </div>
           <div className="flex justify-center">
-            <button className={`text-white font-bold bg-slate-800 py-4 md:py-3 w-[350px] md:w-[500px] rounded-full mt-6 ${bgButtonHover}`}>Continue</button>
+            <button className={`text-white font-bold bg-slate-800 py-4 md:py-3 w-[350px] md:w-[500px] rounded-full mt-4 mb-10 md:mt-6 ${bgButtonHover}`}>Continue</button>
           </div>          
         </div>
     )
