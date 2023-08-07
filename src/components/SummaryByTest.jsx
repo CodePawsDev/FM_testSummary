@@ -18,7 +18,7 @@ const SummaryByTest = () => {
   });
 
     return (
-        <div className="w-full md:w-1/2 px-8 mt-5 md:mt-0">
+        <div className="max-w-[375px] w-full md:w-1/2 px-8 mt-5 md:mt-0">
           <h2 className="font-bold text-xl text-slate-800 mb-5">Summary</h2>
           <div className="">
             {renderedResults}
