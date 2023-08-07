@@ -4,7 +4,7 @@ const Result = () => {
 
     return (
         <div className={`max-w-[375px] h-[400px] md:w-1/2 md:h-full rounded-b-3xl md:rounded-3xl flex flex-col justify-center items-center ${bgGradient}`}>
-          <h2 className="font-bold text-gray-300 text-2xl mt-5">Your Result</h2>
+          <h2 className="font-bold text-gray-300 text-2xl mt-5 md:mt-0">Your Result</h2>
           <div className={`w-[140px] h-[140px] rounded-full flex flex-col justify-center items-center my-8 ${circleGradient}`}>
             <p className="text-white text-6xl font-semibold">76</p>
             <p className="text-gray-300">of 100</p>
